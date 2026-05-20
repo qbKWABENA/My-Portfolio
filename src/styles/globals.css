@@ -1,0 +1,10 @@
+html {
+  scroll-behavior: auto; /* Let Lenis handle smoothing */
+  -webkit-font-smoothing: antialiased;
+  -webkit-backface-visibility: hidden;
+  will-change: scroll-position;
+}
+
+body {
+  will-change: transform;
+}
